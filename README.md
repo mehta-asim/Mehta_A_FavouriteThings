@@ -46,6 +46,7 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
 ## About The Project
 
 This project is about showcasing the mixture of 2 brands Erdinger Weisbier's Design and Windsor Safe-T-Salt's Content.
@@ -58,7 +59,7 @@ This project is about showcasing the mixture of 2 brands Erdinger Weisbier's Des
 - [SASS](https://sass-lang.com/)
 - [GULP JS](https://gulpjs.com/)
 
-### Research
+## Research
 
 <h3>Design</h3>
 The website is created with pastel colors and shapes so as to give it a fun kind of vibe<br>
@@ -121,4 +122,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Asim Mehta<br>
-Project Link: [https://github.com/mehta-asim/Mehta_A_FavouriteThings](https://github.com/mehta-asim/Mehta_A_FavouriteThings)
+Project Link: [https://github.com/mehta-asim/Mehta_A_FavouriteThings](https://github.com/mehta-asim/Mehta_A_FavouriteThings) <br>
+©asimmehta | 2021
