@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 120px;
+  margin-right: 10px;
+  form {
+    label {
+      font-size: 28px;
+    }
+
+    #yourFavThing {
+      width: 538px;
+      height: 32px;
+      background-color: #f8b195;
+      border-radius: 10px;
+      padding: 0px;
+      border-width: 0px;
+      opacity: 0.5;
+      margin-right: 20px;
+    }
+
+    #send {
+      height: 32px;
+      width: 100px;
+      font-family: "Open Sans SemiBold";
+      font-size: 20px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 0px;
+      border-width: 0px;
+      opacity: 0.2;
+      margin-top: 10px;
+    }
+  }
+  h3 {
+    transform: rotate(90deg);
+    // margin-top: 0px;
+    // margin-right: 0px;
+    // margin-left: 10px;
+    // margin-bottom: 0px;
+    // padding-left: 10px;
+    margin: 0 auto;
+  }
+}

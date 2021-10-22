@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+}
+
+body {
+  color: $main-color;
+  font-size: $main-size;
+  font-family: $main-font;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(../images/bg.svg);
+  background-size: cover;
+}

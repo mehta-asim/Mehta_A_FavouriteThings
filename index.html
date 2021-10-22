@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="hidden">asim's favourite things</h1>
+
+    <div class="container">
+
+        <header>
+            <h2>asim's favourite things</h2>
+            <section id="socialMediaIcons">
+            <a href="facebook.com"><img src="images/fb.svg" id="fb" alt="fb logo"></a>
+            <a href="instagram.com"><img src="images/insta.svg" id="ig" alt="instagram logo"></a>
+            <a href="twitter.com"><img src="images/twitter.svg" id="tw" alt="twitter logo"></a>
+            </section>
+        </header>
+
+        <section id="fav-things">
+            <section id="fthing1">
+                <h2 class="fname">Valorant</h2>
+            </section>
+            <section id="fthing2">
+                <h2 class="fname">Glitch Art</h2>
+            </section>
+            <section id="fthing3">
+                <h2 class="fname">Anime</h2>
+            </section>
+        </section>
+
+        <template id="favdes-template">
+            <section class="favdes-panel">
+                <!-- <h2 class="f_name"></h2> -->
+                <div class="f_cover">
+                    <img src="" alt="">
+                </div>
+                <p class="f_desc"></p>
+                <p class="f_fact"></p>
+            </section>
+        </template>
+
+        <footer>
+
+            <h2 class="hidden">Footer Navigation</h2>
+            <form action="form.php" method="post">
+                <label for="yourFavThing">What are your favourite things?</label>
+                <input type="text" id="yourFavThing" name="yourFavThings">
+
+                <input id="send" type="submit" name="send" value="Send">
+            </form>
+            <h3 class="copyright">©asimmehta</h3>
+
+        </footer>
+
+    </div>
+    <script src="js/main.js" type="module" defer></script>
+</body>
+
+</html>

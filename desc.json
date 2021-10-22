@@ -1,0 +1,17 @@
+{
+    "fthing1": {
+        "source": "fthing-1.jpg",
+        "description": "5v5 FPS multiplayer, multiple agents to choose from based on the strategy and powers.",
+        "fact":"I used to stream Valorant."
+    },
+    "fthing2": {
+        "source": "fthing-2.jpg",
+        "description":"Different pieces of art created around the concept of glitching, feels like broken and not in the correct place",
+        "fact":"I like creating glitch art."
+    },
+    "fthing3": {
+        "source": "fthing-3.jpg",
+        "description":"A style of Japanese film and television animation, typically aimed at adults as well as children.",
+        "fact":"My favourite anime is One Piece."
+    }
+  }
