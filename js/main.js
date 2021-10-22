@@ -1,6 +1,5 @@
 (() => {
   const theFav = document.querySelector("#fav-things"),
-    theFavImgTemplate = document.querySelector("#favimg-template").content,
     theFavDesTemplate = document.querySelector("#favdes-template").content;
 
   const theFavThings = document.querySelector("#fav-things");
