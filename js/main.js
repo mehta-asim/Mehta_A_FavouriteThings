@@ -1,13 +1,13 @@
 (() => {
-  const theFav = document.querySelector("#fav-things"),
-    theFavDesTemplate = document.querySelector("#favdes-template").content;
+  const theFavDesTemplate = document.querySelector("#favdes-template").content;
 
   const theFavThings = document.querySelector("#fav-things");
 
   let desc = {};
 
+  var fToggle = new Array(0, 0, 0);
+
   function getDesc() {
-    // debugger;
     fetch("./desc.json")
       .then((res) => res.json())
       .then((data) => {
@@ -15,25 +15,38 @@
 
         desc = data;
         console.log(desc);
-        // debugger;
       });
   }
 
   function buildDesc(event) {
     let fId = event.target.parentElement.id;
+    var thingNo = `${fId}`.replace(/[^0-9]/g, "") - 1;
 
-    let desPanel = theFavDesTemplate.cloneNode(true);
+    console.log(thingNo);
 
-    let desContainer = desPanel.firstElementChild.children;
-    console.log(desc[fId]);
+    if (fToggle[thingNo] == 0) {
+      let desPanel = theFavDesTemplate.cloneNode(true);
 
-    desContainer[0].querySelector("img").src = `images/${desc[fId].source}`;
-    desContainer[1].textContent = desc[fId].description;
-    desContainer[2].textContent = desc[fId].fact;
-    // desContainer[2].textContent = desc[2].fact;
-    document.getElementById(fId).appendChild(desPanel);
-    debugger;
-    // debugger;
+      let desContainer = desPanel.firstElementChild.children;
+      console.log(desc[fId]);
+
+      let imgSource = desc[fId].source;
+
+      desContainer[0].querySelector("img").src = `images/${imgSource}`;
+      desContainer[1].textContent = desc[fId].description;
+      desContainer[2].textContent = desc[fId].fact;
+      document.getElementById(fId).appendChild(desPanel);
+      fToggle[thingNo] = 1;
+    } else {
+      console.log("else statement");
+      let fParent = event.target.parentNode;
+      console.log(fParent);
+      let deleteChild = fParent.children[1];
+      console.log(deleteChild);
+
+      fParent.removeChild(deleteChild);
+      fToggle[thingNo] = 0;
+    }
   }
 
   getDesc();
