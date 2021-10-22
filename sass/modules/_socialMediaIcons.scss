@@ -1,0 +1,21 @@
+#socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  #fb {
+    width: 14.72px;
+    height: 25.14px;
+    margin-right: 39.2px;
+  }
+
+  #ig {
+    width: 24.4px;
+    height: 24.42px;
+    margin-right: 39.2px;
+  }
+
+  #tw {
+    width: 26.23px;
+    height: 21.19px;
+  }
+}

@@ -1,0 +1,38 @@
+#fav-things {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 120px;
+  margin-right: 130px;
+  margin-top: 20px;
+
+  height: 313px;
+
+  h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+#fthing1,
+#fthing2,
+#fthing3 {
+  width: 210px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#fthing1,
+#fthing2 {
+  margin-right: 26px;
+}
+
+.fname:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-thickness: 2px;
+}
