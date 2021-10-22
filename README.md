@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/mehta-asim/Mehta_A_FavouriteThings">
     <img src="images/logo.png" alt="Logo" width="427" height="53">
+    <img src="images/logo-white.png" alt="Logo" width="427" height="53">
   </a>
 
   <h3 align="center">asim's favourite things</h3>
