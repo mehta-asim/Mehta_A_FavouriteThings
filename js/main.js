@@ -48,7 +48,6 @@
       fToggle[thingNo] = 0;
     }
   }
-
   getDesc();
   theFavThings.addEventListener("click", buildDesc);
 })();
